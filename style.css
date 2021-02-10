@@ -1,66 +1,85 @@
+/** Author: Safura Javan
+Github: https://github.com/safurajavan **/
+
 body {
-    background: #2c3e50;
-  }
-
-  h1 {
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  p {
-    color: #fff;
-    text-align: center;
-    font-size: 10px;
-  }
-
-  .main {
-    width: 70%;
-    float: left;
-  }
-
-  .sub-main {
-    width: 30%;
-    margin: 0%;
-    float: left;
-  }
-
-  .ads {
-    width: 30%;
-    float: left;
-
-  }
-
-  .ads-image {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-  }
-
-  .button-one {
-    text-align: center;
-    cursor: pointer;
-    font-size: 24px;
-    margin: 0 0 0 0;
-    padding: 10px 20px;
-    width: 200px;
-    height: 100px;
-    outline: none; /*groove;
-    #double;
-    #solid;
-    #dashed;
-    #dotted;*/
-    background-color: #f39c12;
-    border: none;
-    border-radius: 10px;
-    transition-duration: 0.4s;
-    -webkit-transition-duration: 0.4s;
-    color: #fff;
-    box-shadow: 0 2px 10px 5px #97b1bf;
-  }
-
-  .button-one:hover {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 40px 0;
+    color: #3d3d3f;
+}
+main {
     background-color: #fff;
-    color: #000;
-    box-shadow: 0 2px 10px 5px #97b1bf;
-  }
+    border: 1px solid #ddd;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+a,a:hover {
+    color: #64b2b6;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #64b2b6;
+}
+.left-side {
+    padding: 25px;
+}
+.profile {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.profile h1 {
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.picture {
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.picture img {
+    max-width: 100%;
+}
+.btn-cv {
+    padding: 10px;
+    color: white;
+    background-color: #71c9ce;
+    width: 100%;
+    border-radius: 0px;
+}
+.btn-cv:hover {
+    color: #fff;
+    background-color: #64b2b6;
+}
+.btn:focus, .btn:active {
+    outline: none impo !important;
+    box-shadow: none;
+    color: white;
+}
+.social {
+    padding: 0;
+    list-style-type: none;
+}
+.social i {
+    width: 20px;
+}
+.right-side {
+    padding: 0;
+}
+@media (max-width: 991.98px) {
+    .right-side {
+        border-top: 1px solid #ddd;
+    }
+}
+@media (min-width: 992px) {
+    .left-side {
+        border-right: 1px solid #ddd;
+    }
+    .time {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    header {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 25px;
+    }
+}
