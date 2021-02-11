@@ -1,42 +1,52 @@
-/** Author: Safura Javan
-Github: https://github.com/safurajavan **/
-
+/** 
+Author: Safura Javan
+Github: https://github.com/safurajavan 
+**/
 body {
     font-family: 'Noto Sans', sans-serif;
     padding: 40px 0;
     color: #3d3d3f;
 }
+
 main {
     background-color: #fff;
     border: 1px solid #ddd;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
 }
+
 a,a:hover {
     color: #64b2b6;
 }
+
 h2 {
     font-size: 20px;
     font-weight: 500;
     color: #64b2b6;
 }
+
 .left-side {
     padding: 25px;
 }
+
 .profile {
     text-align: center;
     padding-bottom: 15px;
 }
+
 .profile h1 {
     padding-top: 20px;
     text-transform: uppercase;
 }
+
 .picture {
     background-repeat: no-repeat ;
     background-size: cover;
 }
+
 .picture img {
     max-width: 100%;
 }
+
 .btn-cv {
     padding: 10px;
     color: white;
@@ -44,39 +54,85 @@ h2 {
     width: 100%;
     border-radius: 0px;
 }
+
 .btn-cv:hover {
     color: #fff;
     background-color: #64b2b6;
 }
+
 .btn:focus, .btn:active {
     outline: none impo !important;
     box-shadow: none;
     color: white;
 }
+
 .social {
     padding: 0;
     list-style-type: none;
 }
+
 .social i {
     width: 20px;
 }
+
 .right-side {
     padding: 0;
 }
+
+section {
+    padding: 40px;
+    border-bottom: 1px solid #ddd; 
+}
+
+.section-title {
+    text-transform: uppercase;
+    margin-left: -5px;
+}
+
+.upper-row {
+    position: relative;
+}
+
+.school-name, .company {
+    color: #71c9ce;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.time {
+    color: #71c9ce;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.job-title, .school-title {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.job li, section {
+    font-size: 15px;
+}
+
 @media (max-width: 991.98px) {
     .right-side {
         border-top: 1px solid #ddd;
     }
 }
+
 @media (min-width: 992px) {
     .left-side {
         border-right: 1px solid #ddd;
     }
+
     .time {
         position: absolute;
         right: 0;
         top: 0;
     }
+
     header {
         position: sticky;
         position: -webkit-sticky;
