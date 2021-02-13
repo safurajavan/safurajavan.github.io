@@ -1,0 +1,35 @@
+
+div {
+    color: blueviolet;
+    background-color: floralwhite;
+}
+
+.radio {
+    display: block;
+    padding-top: 15px;
+}
+
+.radio input {
+    margin: 0 10px;
+}
+
+.input-tite {
+    color: darkviolet;
+    font-size: 15;
+}
+
+.card {
+    border: 2px solid darkslateblue;
+    width: 400px;
+    padding: 15px;
+    margin: 40px auto;
+
+}
+
+form {
+    text-align: center;
+}
+
+b {
+    font-size: 20px;
+}
