@@ -55,6 +55,15 @@ h2 {
     border-radius: 0px;
 }
 
+.btn-cvs {
+    padding: 10px;
+    color: white;
+    background-color:cornflowerblue;
+    width: 100%;
+    border-radius: 0px;
+}
+
+
 .btn-cv:hover {
     color: #fff;
     background-color: #64b2b6;
