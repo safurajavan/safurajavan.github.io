@@ -1,52 +1,92 @@
-
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-        <link href="stylee.css" type="text/css" rel="stylesheet">
-    </head>    
+
+<head>
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
 <body>
-        <div class="card">
-            <form action="https://formspree.io/f/xleokgpw" method="POST" target="self">
-                <div class="input-title">
-                    <b>WHO IS THE BEST TEACHER?</b>    
-                </div>
-                <div class="radio">    
-                    <input type="radio" name="teacher" required="" value="Maza">Maza
-                </div>
-                <div class="radio">  
-                    <input type="radio" name="teacher" required="" value="Pooya">Pooya
-                </div>    
-                <div class="radio">
-                    <input type="radio" name="teacher" required="" value="Ezzat">Ezzat
-                </div>
-                <div class="input-title"><br>
-                    <b>WHO IS THE CRAZIEST USER?</b>    
-                </div>
-                <div class="radio">    
-                    <input type="radio" name="crazy" required="" value="Ezzat">Ezzat
-                </div>
-                <div class="radio">  
-                    <input type="radio" name="crazy" required="" value="Pooya">Pooya
-                </div>    
-                <div class="radio">
-                    <input type="radio" name="crazy" required="" value="all">We are ALL crazy here
-                </div>
-                <div class="input-title"><br>
-                    <b>WHO IS THE KINDEST USER?</b>    
-                </div>
-                <div class="radio">    
-                    <input type="radio" name="kind" required="" value="Safura">Safura
-                </div>
-                <div class="radio">  
-                    <input type="radio" name="kind" required="" value="Javan">Javan
-                </div>    
-                <div class="radio">
-                    <input type="radio" name="kind" required="" value="Both">Both
-                </div>
-                <input type="submit" value="Submit" class="btn">
-            </form>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Votes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
         </div>
+    </nav>
+    <main class="container">
+        <form class="row">
+            <div class="col-sm-8">
+                <p>Description</p>
+            </div>
+            <div class="form-group">
+                <label for="teacher">1- who is the best teacher?</label>
+                <select id="teacher" name="techer" class="form-control" required="">
+                    <option value="">choose...</option>
+                    <option value="Maza">Maza</option>
+                    <option value="Pooya">Pooya</option>
+                    <option value="Ezzat">Ezzat</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="crazy">2- who is the craziest user?</label>
+                <div>
+                    <label class="radio-inline">
+                        <input type="radio" name="crazy" required="" value="Ezzat">Ezzat
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="crazy" required="" value="Pooya">Pooya
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="crazy" required="" value="all">we are all crazy here
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="crazy">3- who is the kindest user?</label>
+                <div>
+                    <label class="radio-inline">
+                        <input type="radio" name="kind" required="" value="safura">Safura
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="kind" required="" value="javan">Javan
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="kind" required="" value="both">Both
+                    </label>
+                </div>
+            </div>
+            <input type="submit" value="Submit" class="btn btn-default">
+        </form>
+
+
+        </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
