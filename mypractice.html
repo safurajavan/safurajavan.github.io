@@ -33,7 +33,7 @@
         </div>
     </nav>
     <main class="container">
-        <form class="row">
+        <form class="row" action="https://formspree.io/f/xleokgpw" method="POST">
             <div class="col-sm-8">
                 <p>Description</p>
             </div>
@@ -48,31 +48,21 @@
             </div>
             <div class="form-group">
                 <label for="crazy">2- who is the craziest user?</label>
-                <div>
-                    <label class="radio-inline">
-                        <input type="radio" name="crazy" required="" value="Ezzat">Ezzat
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="crazy" required="" value="Pooya">Pooya
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="crazy" required="" value="all">we are all crazy here
-                    </label>
-                </div>
+                <select id="teacher" name="techer" class="form-control" required="">
+                    <option value="">choose...</option>
+                    <option value="Maza">Ezzat</option>
+                    <option value="Pooya">Pooya</option>
+                    <option value="all">We are ALL crazy here</option>
+                </select>
             </div>
             <div class="form-group">
                 <label for="crazy">3- who is the kindest user?</label>
-                <div>
-                    <label class="radio-inline">
-                        <input type="radio" name="kind" required="" value="safura">Safura
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="kind" required="" value="javan">Javan
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="kind" required="" value="both">Both
-                    </label>
-                </div>
+                <select id="teacher" name="techer" class="form-control" required="">
+                    <option value="">choose...</option>
+                    <option value="safura">Safura</option>
+                    <option value="javan">Javan</option>
+                    <option value="both">Both</option>
+                </select>
             </div>
             <input type="submit" value="Submit" class="btn btn-default">
         </form>
