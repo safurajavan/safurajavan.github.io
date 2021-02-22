@@ -5,6 +5,7 @@ body {
 
 .box {
     background-color: #3d4543;
+    border-radius: 5px;
 }
 
 button.gray {
@@ -59,6 +60,7 @@ button.black {
 
 .display {
     background-color: #222;
+    border-radius: 5px;
 }
 
 .display input {
