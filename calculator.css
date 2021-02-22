@@ -1,0 +1,77 @@
+
+body {
+    background-color: tan;
+}
+
+.box {
+    background-color: #3d4543;
+}
+
+button.gray {
+    color: white;
+    background-color: #6f6f6f;
+    border-bottom: black 2px solid;
+    border-top: #6f6f6f 2px solid;
+}
+
+.gray:active {
+    border-top: black 2px solid;
+    border-bottom: #6f6f6f solid;
+}
+
+ button.pink {
+     color: black;
+     background-color: #ff4561;
+     border-bottom: black 2px solid;
+     border-top: #ff4561 2px solid;
+}
+
+.pink:active {
+    border-top: black 2px solid;
+    border-bottom: #ff4561 2px solid;
+}
+
+button.orange {
+    color: black;
+    background-color: #f93;
+    border-bottom: black 2px solid;
+    border-top: #ff9933 2px solid;
+}
+
+.orange:active {
+    border-top: black 2px solid;
+    border-bottom: #ff9933 2px solid;
+}
+
+
+button.black {
+    color: white;
+    background-color: #303030;
+    border-bottom: black 2px solid;
+    border-top: #303030 2px solid;
+}
+
+.black:active {
+    border-top: black 2px solid;
+    border-bottom: #303030 2px solid;
+}
+
+
+.display {
+    background-color: #222;
+}
+
+.display input {
+    background-color: #bccd95;
+}
+
+.button {
+    border: none;
+    border-radius: 8px;
+    border-top: 2px solid transparent;
+    cursor: pointer;
+}
+
+.keys {
+    margin-top: 13px;
+}
